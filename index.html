@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title> ESSA Electric systems solution</title>
+<meta name="description"content="Electricity, Optical Fibers,Computer Networks, Acces Control"/>
+<meta name="keywords" content="Electricity UK, Optical Fibers UK, Computer Networks UK, Acces Control UK, Elektric Systems Solution">
+<meta name="author" content="Oliwia Wojcieszak"/>
+<meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- responsiveness -->
+<link rel="stylesheet" href="https://use.typekit.net/svz7moj.css">
+<link rel="stylesheet" href="style.css" type="text/css"/> 
+</head>
+<body>
+<div class="logo">
+<img class="mySlides" src="logo.jpg">
+<img class="mySlides" src="1.jpg">
+<img class="mySlides" src="2.jpg">
+<img class="mySlides" src="3.jpg">
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+</script>
+<nav>
+<a href="Elektryka.html">Electricity</a>
+<a href="Sieci.html">Computer Networks</a>
+<a href="Swiatlowody.html">Optical Fibers</a>
+<a href="kontrola.html">Acces Control</a>
+<a href="kamery.html">Cameras</a>
+<a href="kontakt.html">Contact</a>
+
+</nav>
+
+<body>
